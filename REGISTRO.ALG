@@ -13,7 +13,7 @@ var
    aux : inteiro
 
 inicio
-      //leitura de dados
+      //leitura de dados pessoais
       escreval("Cadastro de dados")
       para aux de 1 ate 1 faca
 
@@ -26,6 +26,7 @@ inicio
            escreval("Digite o numero do cartão: ")
            leia(lista_usuario[aux].numCartao)
            
+           //leitura de dados de viagem
            escreval("Digite a origem e destino da sua viagem")
            escreval("Cidade de origem: ")
            leia(lista_usuario[aux].cidadeo)
@@ -35,7 +36,7 @@ inicio
            
       fimpara
       
-      //leitura de dados
+      //leitura de dados pessoais
       escreval("Cadastrado, confira seus dados.")
       para aux de 1 ate 1 faca
 
@@ -45,25 +46,11 @@ inicio
            escreval(lista_usuario[aux].cpf)
            escreva("Numero do cartão:")
            escreval(lista_usuario[aux].numCartao)
+           //leitura de dados de viagem
            escreva("Cidade de origem: ")
            escreva(lista_usuario[aux].cidadeo)
            escreva(" -> Cidade de destino: ")
            escreval(lista_usuario[aux].cidaded)
            escreval("Boa viagem!!!")
       fimpara
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Fimalgoritmo
